@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Типы данных", "Т
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Приоритет арифметических операций", "Приоритет арифметических операций\Приоритет арифметических операций.csproj", "{E8FF2372-F47A-47AF-9DEE-8736E0EB4EE0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Объявление и инициализация переменных", "Объявление и инициализация переменных\Объявление и инициализация переменных.csproj", "{71C603F3-2C63-4B51-98A0-736781290A26}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{E8FF2372-F47A-47AF-9DEE-8736E0EB4EE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8FF2372-F47A-47AF-9DEE-8736E0EB4EE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8FF2372-F47A-47AF-9DEE-8736E0EB4EE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71C603F3-2C63-4B51-98A0-736781290A26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71C603F3-2C63-4B51-98A0-736781290A26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71C603F3-2C63-4B51-98A0-736781290A26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71C603F3-2C63-4B51-98A0-736781290A26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
