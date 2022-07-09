@@ -10,6 +10,7 @@ namespace Приоритет_арифметических_операций
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Приоритет арифметических операций в С#");
         }
     }
 }

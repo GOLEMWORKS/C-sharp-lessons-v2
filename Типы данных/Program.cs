@@ -10,6 +10,7 @@ namespace Типы_данных
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Типы данных в C#");
         }
     }
 }
