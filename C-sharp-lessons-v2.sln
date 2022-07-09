@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Приоритет ариф
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Объявление и инициализация переменных", "Объявление и инициализация переменных\Объявление и инициализация переменных.csproj", "{71C603F3-2C63-4B51-98A0-736781290A26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ввод данных в консоль", "Ввод данных в консоль\Ввод данных в консоль.csproj", "{055BF3D6-EB54-4455-AB72-6F50261D57EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{71C603F3-2C63-4B51-98A0-736781290A26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71C603F3-2C63-4B51-98A0-736781290A26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71C603F3-2C63-4B51-98A0-736781290A26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{055BF3D6-EB54-4455-AB72-6F50261D57EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{055BF3D6-EB54-4455-AB72-6F50261D57EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{055BF3D6-EB54-4455-AB72-6F50261D57EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{055BF3D6-EB54-4455-AB72-6F50261D57EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
