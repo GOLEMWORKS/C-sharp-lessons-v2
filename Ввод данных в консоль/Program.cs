@@ -10,7 +10,10 @@ namespace Ввод_данных_в_консоль
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Введите имя:");
+            string data = Console.ReadLine();
 
+            Console.WriteLine("Привет " + data);
         }
     }
 }
