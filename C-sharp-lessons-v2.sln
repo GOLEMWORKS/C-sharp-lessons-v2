@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ввод данных в к
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Конвертация типов данных (Перевод строки в число.)", "Конвертация типов данных (Перевод строки в число.)\Конвертация типов данных (Перевод строки в число.).csproj", "{B9389BD7-EB14-46FA-9187-C487CC9615DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Конвертация строки (parse и tryparse)", "Конвертация строки (parse и tryparse)\Конвертация строки (parse и tryparse).csproj", "{2509E308-2E75-4FFA-930D-17E206631E76}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{B9389BD7-EB14-46FA-9187-C487CC9615DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9389BD7-EB14-46FA-9187-C487CC9615DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9389BD7-EB14-46FA-9187-C487CC9615DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2509E308-2E75-4FFA-930D-17E206631E76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2509E308-2E75-4FFA-930D-17E206631E76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2509E308-2E75-4FFA-930D-17E206631E76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2509E308-2E75-4FFA-930D-17E206631E76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
