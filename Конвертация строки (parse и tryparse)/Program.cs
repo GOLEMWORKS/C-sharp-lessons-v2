@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Globalization;
 
 namespace Конвертация_строки__parse_и_tryparse_
 {
@@ -10,6 +11,25 @@ namespace Конвертация_строки__parse_и_tryparse_
     {
         static void Main(string[] args)
         {
+            //Простейший пример перевода строки в число методом Parse
+            string str = "12";
+            int a = int.Parse(str);
+            Console.WriteLine("Первое число: " + a);
+
+            //Перевод строки в дробное число с указанием локального разделителя
+            string str1 = "1.2";
+
+            NumberFormatInfo numberFormatInfo = new NumberFormatInfo()
+            {
+                NumberDecimalSeparator = ".",
+            };
+
+            double b = double.Parse(str1, numberFormatInfo); //обязательно указать объект numberformatInfo в параметры Parse!!!
+            Console.WriteLine("Второе число: " + b);
+
+
+
+            //Испоьзование TryParse
         }
     }
 }
