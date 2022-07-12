@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Конвертация ти
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Конвертация строки (parse и tryparse)", "Конвертация строки (parse и tryparse)\Конвертация строки (parse и tryparse).csproj", "{2509E308-2E75-4FFA-930D-17E206631E76}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Операторы", "Операторы\Операторы.csproj", "{A9FF20D0-BC32-4CBB-ACF5-CECB995D6890}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{2509E308-2E75-4FFA-930D-17E206631E76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2509E308-2E75-4FFA-930D-17E206631E76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2509E308-2E75-4FFA-930D-17E206631E76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9FF20D0-BC32-4CBB-ACF5-CECB995D6890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9FF20D0-BC32-4CBB-ACF5-CECB995D6890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9FF20D0-BC32-4CBB-ACF5-CECB995D6890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9FF20D0-BC32-4CBB-ACF5-CECB995D6890}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
