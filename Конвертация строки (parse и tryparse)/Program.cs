@@ -30,7 +30,7 @@ namespace Конвертация_строки__parse_и_tryparse_
 
 
             //Испоьзование TryParse
-            string str2 = "2б2";
+            string str2 = "22";
 
             int c;
 
