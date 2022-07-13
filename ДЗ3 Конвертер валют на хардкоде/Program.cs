@@ -14,8 +14,10 @@ namespace ДЗ3_Конвертер_валют_на_хардкоде
 
 
             string str;
-            double rub, usd;
+            double rub, usd, val;
 
+            //Нынешний курс рубля к доллару
+            val = 58.48;
 
             Console.WriteLine("Введите 1, если хотите перевести RUB в USD" +
                               "\nВведите 2, если хотите перевести USD в RUB");
@@ -31,7 +33,7 @@ namespace ДЗ3_Конвертер_валют_на_хардкоде
 
                 if(convertru)
                 {
-                    usd = rub / 65;
+                    usd = rub / val;
                     Console.WriteLine("За " + rub + " рублей вы получите " + usd + " долларов США");
                 }
                 
@@ -50,7 +52,7 @@ namespace ДЗ3_Конвертер_валют_на_хардкоде
 
                 if(convertur)
                 {
-                    rub = usd * 65;
+                    rub = usd * val;
                     Console.WriteLine("За " + usd + " долларов США вы получите " + rub + " рублей");
                 }
 
