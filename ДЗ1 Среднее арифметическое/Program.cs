@@ -13,6 +13,7 @@ namespace ДЗ1_Среднее_арифметическое
             string str;
             int a, b;
 
+            Console.WriteLine(" --- Вычисление среднего арифметического двух чисел --- ");
             Console.WriteLine("Введите первое число: ");
             str = Console.ReadLine();
 
