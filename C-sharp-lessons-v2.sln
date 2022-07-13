@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ДЗ1 Среднее ари
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ДЗ2 Сумма и произведение 3х чисел", "ДЗ2 Сумма и произведение 3х чисел\ДЗ2 Сумма и произведение 3х чисел.csproj", "{226DBF2E-BCDD-4733-92B3-FD65281DFEE1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ДЗ3 Конвертер валют на хардкоде", "ДЗ3 Конвертер валют на хардкоде\ДЗ3 Конвертер валют на хардкоде.csproj", "{BD03FAD8-636B-4EAE-B2A2-E7C131A7CAFB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{226DBF2E-BCDD-4733-92B3-FD65281DFEE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{226DBF2E-BCDD-4733-92B3-FD65281DFEE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{226DBF2E-BCDD-4733-92B3-FD65281DFEE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD03FAD8-636B-4EAE-B2A2-E7C131A7CAFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD03FAD8-636B-4EAE-B2A2-E7C131A7CAFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD03FAD8-636B-4EAE-B2A2-E7C131A7CAFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD03FAD8-636B-4EAE-B2A2-E7C131A7CAFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
