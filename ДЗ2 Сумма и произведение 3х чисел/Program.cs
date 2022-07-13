@@ -17,7 +17,52 @@ namespace ДЗ2_Сумма_и_произведение_3х_чисел
             Console.WriteLine("Введите первое число: ");
             str = Console.ReadLine();
 
-            bool result = Double.TryParse(str, out a);
+            bool result = double.TryParse(str, out a);
+            
+            if(result)
+            {
+                Console.WriteLine("Введите второе число: ");
+                str = Console.ReadLine();
+
+                bool inres1 = double.TryParse(str, out b);
+
+                if (inres1) 
+                {
+                    Console.WriteLine("Введите третье число: ");
+                    str = Console.ReadLine();
+
+                    bool inres2 = double.TryParse(str, out c);
+
+                    if (inres2)
+                    {
+                        double sum, mult, dif, div;
+
+                        sum = a + b + c;
+                        mult = a * b * c;
+                        dif = a - b - c;
+                        div = a / b / c;
+
+                        Console.WriteLine("Сумма чисел: " + sum + "\nПроизведение чисел: " + mult);
+                    }
+
+                    else
+
+                    {
+                        Console.WriteLine("Строка со значением " + str + " не является числом!");
+                    }
+                }
+
+                else
+                {
+                    Console.WriteLine("Строка со значением " + str + " не является числом!");
+                }
+            }
+
+            else
+
+            {
+                Console.WriteLine("Строка со значением " + str + " не является числом!");
+            }
         }
     }
 }
