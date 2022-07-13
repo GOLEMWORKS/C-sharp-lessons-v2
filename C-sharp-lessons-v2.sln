@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Операторы", "Оп�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ДЗ1 Среднее арифметическое", "ДЗ1 Среднее арифметическое\ДЗ1 Среднее арифметическое.csproj", "{E73AB0E4-2D9D-4399-AA9A-012A6BD47896}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ДЗ2 Сумма и произведение 3х чисел", "ДЗ2 Сумма и произведение 3х чисел\ДЗ2 Сумма и произведение 3х чисел.csproj", "{226DBF2E-BCDD-4733-92B3-FD65281DFEE1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{E73AB0E4-2D9D-4399-AA9A-012A6BD47896}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E73AB0E4-2D9D-4399-AA9A-012A6BD47896}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E73AB0E4-2D9D-4399-AA9A-012A6BD47896}.Release|Any CPU.Build.0 = Release|Any CPU
+		{226DBF2E-BCDD-4733-92B3-FD65281DFEE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{226DBF2E-BCDD-4733-92B3-FD65281DFEE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{226DBF2E-BCDD-4733-92B3-FD65281DFEE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{226DBF2E-BCDD-4733-92B3-FD65281DFEE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

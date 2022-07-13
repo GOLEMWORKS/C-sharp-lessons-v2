@@ -11,19 +11,19 @@ namespace ДЗ1_Среднее_арифметическое
         static void Main(string[] args)
         {
             string str;
-            int a, b;
+            double a, b;
 
             Console.WriteLine(" --- Вычисление среднего арифметического двух чисел --- ");
             Console.WriteLine("Введите первое число: ");
             str = Console.ReadLine();
 
-            bool result = int.TryParse(str, out a);
+            bool result = double.TryParse(str, out a);
             if(result)
             {
                 Console.WriteLine("Введите второе число: ");
                 str = Console.ReadLine();
 
-                bool inresult = int.TryParse(str, out b);
+                bool inresult = double.TryParse(str, out b);
                 if(inresult) 
                 {
                     double sar = ((double)a + (double)b) / 2;
