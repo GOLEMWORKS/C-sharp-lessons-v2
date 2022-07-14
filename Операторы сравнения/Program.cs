@@ -19,6 +19,15 @@ namespace Операторы_сравнения
                     <= Больше иили равно
              
              */
+
+            int a, b;
+
+            a = 5;
+            b = 5;
+
+            bool res = a == b;
+
+            Console.WriteLine(res);
         }
     }
 }
