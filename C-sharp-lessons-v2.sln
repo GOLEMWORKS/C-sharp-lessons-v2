@@ -23,7 +23,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ДЗ2 Сумма и про�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ДЗ3 Конвертер валют на хардкоде", "ДЗ3 Конвертер валют на хардкоде\ДЗ3 Конвертер валют на хардкоде.csproj", "{BD03FAD8-636B-4EAE-B2A2-E7C131A7CAFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Унарные арифметические операции. Инкремент и декремент", "Унарные арифметические операции. Инкремент и декремент.\Унарные арифметические операции. Инкремент и декремент.csproj", "{8B50B1F6-DDCB-4ACB-BFBD-2E50C3BBD0CE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Унарные арифметические операции. Инкремент и декремент", "Унарные арифметические операции. Инкремент и декремент\Унарные арифметические операции. Инкремент и декремент.csproj", "{8B50B1F6-DDCB-4ACB-BFBD-2E50C3BBD0CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Операторы сравнения", "Операторы сравнения\Операторы сравнения.csproj", "{6AEE072C-51A0-45F7-8251-E3DCF8AEE454}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{8B50B1F6-DDCB-4ACB-BFBD-2E50C3BBD0CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B50B1F6-DDCB-4ACB-BFBD-2E50C3BBD0CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B50B1F6-DDCB-4ACB-BFBD-2E50C3BBD0CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AEE072C-51A0-45F7-8251-E3DCF8AEE454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AEE072C-51A0-45F7-8251-E3DCF8AEE454}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AEE072C-51A0-45F7-8251-E3DCF8AEE454}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AEE072C-51A0-45F7-8251-E3DCF8AEE454}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
