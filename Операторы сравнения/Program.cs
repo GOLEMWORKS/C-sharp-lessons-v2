@@ -21,13 +21,46 @@ namespace Операторы_сравнения
              */
 
             int a, b;
+            bool res, parse;
+            string str;
 
-            a = 5;
-            b = 5;
+            Console.WriteLine("Введите первое число (a): ");
+            str = Console.ReadLine();
 
-            bool res = a == b;
+            parse = int.TryParse(str, out a);
+            if (parse)
+            {
+                Console.WriteLine("Введите второе число (b): ");
+                str = Console.ReadLine();
 
-            Console.WriteLine(res);
+                parse = int.TryParse(str, out b);
+
+                if(parse)
+                {
+                    res = a == b;
+                    Console.WriteLine("a==b " + res);
+
+                    res = a != b;
+                    Console.WriteLine("a!=b " + res);
+
+                    res = a <= b;
+                    Console.WriteLine("a<=b " + res);
+
+                    res = a >= b;
+                    Console.WriteLine("a>=b " + res);
+                }
+
+                else
+                {
+                    Console.WriteLine(str + " - не является числом типа int");
+                }
+
+            }
+
+            else
+            {
+                Console.WriteLine(str + " - не является числом типа int");
+            }
         }
     }
 }
