@@ -27,6 +27,21 @@
             {
                 Console.WriteLine("Вы безоружны");
             }
+
+            Console.WriteLine("Введите число");
+            int a;
+
+            a = int.Parse(Console.ReadLine());
+
+            if (a == 5)
+            {
+                Console.WriteLine(a + " = 5");
+            }
+
+            else
+            {
+                Console.WriteLine(a +" != 5");
+            }
         }
     }
 }
