@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             string str;
-            int a, div;
+            int a;
 
             Console.WriteLine("Введите целое число:");
             
@@ -15,9 +15,8 @@
             
             if (result)
             {
-                div = a % 2;
 
-                if(div == 0)
+                if(a % 2 == 0)
                 {
                     Console.WriteLine("Число чётное");
                 }
