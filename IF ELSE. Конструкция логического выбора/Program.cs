@@ -25,7 +25,7 @@
             }
             else
             {
-                Console.WriteLine("");
+                Console.WriteLine("Вы безоружны");
             }
         }
     }
