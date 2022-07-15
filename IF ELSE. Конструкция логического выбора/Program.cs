@@ -16,6 +16,17 @@
              * 
              * else if { }
              */
+
+            bool isWeapon = false;
+
+            if(isWeapon)
+            {
+                Console.WriteLine("Вы держите оружие");
+            }
+            else
+            {
+                Console.WriteLine("");
+            }
         }
     }
 }
