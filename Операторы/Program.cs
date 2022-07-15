@@ -22,6 +22,7 @@ namespace Операторы
             int c = a % b;  
             Console.WriteLine("Результат деления - десятичная дробь: " + d +
                               " \nОстаток от деления " + a + " и " + b + " : " + c);
+            Console.ReadLine();
         }
     }
 }
