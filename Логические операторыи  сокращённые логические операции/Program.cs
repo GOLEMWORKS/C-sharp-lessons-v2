@@ -18,6 +18,8 @@
             // Не:
             bool isWeapon = false;
 
+
+            //if работает со значением true, поэтому чтобы не писаль else мы ставим унарный НЕ " ! " и полу
             if(!isWeapon)
             {
                 Console.WriteLine(" Не является оружием ");
