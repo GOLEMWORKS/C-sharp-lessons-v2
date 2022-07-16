@@ -26,7 +26,14 @@
             }
 
             
+            //Cокращённый И " && "
+            bool isTemperature = true;
+            bool isCooling = true;
 
+            if(isTemperature && isCooling)
+            {
+                Console.WriteLine(" Замечен высокий показатель температуры прибора! ");
+            }
 
             Console.ReadLine();
         }
