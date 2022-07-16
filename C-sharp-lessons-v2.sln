@@ -33,7 +33,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ДЗ4 Проверка чи
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Логические операторыи  сокращённые логические операции", "Логические операторыи  сокращённые логические операции\Логические операторыи  сокращённые логические операции.csproj", "{41DB7EDC-16AD-4AA2-B2E9-B44B10E90012}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Условный оператор Switch", "Условный оператор Switch\Условный оператор Switch.csproj", "{CF625A09-5885-47E5-B512-0B682A75C92B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Условный оператор Switch", "Условный оператор Switch\Условный оператор Switch.csproj", "{CF625A09-5885-47E5-B512-0B682A75C92B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ДЗ5.1 Калькулятор на switch", "ДЗ5.1 Калькулятор на switch\ДЗ5.1 Калькулятор на switch.csproj", "{1AFABD49-82D1-4187-9518-5A3286D0449A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{CF625A09-5885-47E5-B512-0B682A75C92B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF625A09-5885-47E5-B512-0B682A75C92B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF625A09-5885-47E5-B512-0B682A75C92B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AFABD49-82D1-4187-9518-5A3286D0449A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AFABD49-82D1-4187-9518-5A3286D0449A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AFABD49-82D1-4187-9518-5A3286D0449A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AFABD49-82D1-4187-9518-5A3286D0449A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
