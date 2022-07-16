@@ -14,6 +14,18 @@
                                            ! - Не (Унарный)
              
             */
+
+            // Не:
+            bool isWeapon = false;
+
+            if(!isWeapon)
+            {
+                Console.WriteLine(" Не является оружием ");
+            }
+
+
+
+            Console.ReadLine();
         }
     }
 }
