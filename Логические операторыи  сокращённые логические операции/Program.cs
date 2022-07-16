@@ -25,6 +25,7 @@
                 Console.WriteLine(" Не является оружием ");
             }
 
+            
 
 
             Console.ReadLine();
