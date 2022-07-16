@@ -36,7 +36,6 @@ namespace Типы_данных
 
             Console.WriteLine("\nОпределение минимального и максимального значения производится через .MaxValue");
 
-            int i;
             int MaxI;
             int MinI;
 

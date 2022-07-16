@@ -42,6 +42,7 @@
             {
                 Console.WriteLine(a +" != 5");
             }
+            Console.ReadLine();
         }
     }
 }
