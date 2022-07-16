@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "IF ELSE. Конструкция логического выбора": {
+      "commandName": "Project",
+      "workingDirectory": "E:\\Разработка\\C-Sharp\\C-sharp-lessons-v2\\IF ELSE. Конструкция логического выбора\\bin\\Debug",
+      "nativeDebugging": true
+    }
+  }
+}
