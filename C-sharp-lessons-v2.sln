@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Условный опера
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ДЗ5.1 Калькулятор на switch", "ДЗ5.1 Калькулятор на switch\ДЗ5.1 Калькулятор на switch.csproj", "{1AFABD49-82D1-4187-9518-5A3286D0449A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ДЗ5.2 Калькулятор на switch другая проверка", "ДЗ5.2 Калькулятор на switch другая проверка\ДЗ5.2 Калькулятор на switch другая проверка.csproj", "{8F623949-4BB5-46AF-98FD-768016BD4D0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ДЗ5.2 Калькулятор на switch другая проверка", "ДЗ5.2 Калькулятор на switch другая проверка\ДЗ5.2 Калькулятор на switch другая проверка.csproj", "{8F623949-4BB5-46AF-98FD-768016BD4D0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Цикл while", "Цикл while\Цикл while.csproj", "{0698D402-339F-46A3-A18F-EC2B8534FF97}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{8F623949-4BB5-46AF-98FD-768016BD4D0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F623949-4BB5-46AF-98FD-768016BD4D0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F623949-4BB5-46AF-98FD-768016BD4D0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0698D402-339F-46A3-A18F-EC2B8534FF97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0698D402-339F-46A3-A18F-EC2B8534FF97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0698D402-339F-46A3-A18F-EC2B8534FF97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0698D402-339F-46A3-A18F-EC2B8534FF97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
