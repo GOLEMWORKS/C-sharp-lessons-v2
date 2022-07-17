@@ -6,7 +6,7 @@
         {
             while (true)
             {
-                int min, max, numberCheck;
+                int min, max;
                 uint oddNumbersCounter, evenNumbersCounter; // счётчики, отрицательного значения быть не может!
 
 
@@ -23,26 +23,25 @@
                     {
                         Console.WriteLine("Промежуток не может начинаться с большего числа и оканчиваться меньшим!");
                         Console.ReadLine();
-                        continue;
+                        continue;// пропуск последующего кода и начало программы заново
                     }
                         
                 }
-                catch (Exception)
+                catch (Exception) //проверка вводимых чисел
                 {
                     Console.WriteLine("Введите целые числа в значение промежутка");
                     Console.ReadLine();
-                    continue;
+                    continue;// пропуск последующего кода и начало программы заново
                 }
 
                 oddNumbersCounter = 0; //нечётные
                 evenNumbersCounter = 0; //чётные
                 
-                while (max > min)
+                while (min < max)
                 {
-                    min++;
-                    numberCheck = min % 2;
+                    min++;// увеличивает значение каждую итерацию цикла
 
-                    switch(numberCheck)
+                    switch(min % 2)
                     {
                         case 0:
                             evenNumbersCounter++;
@@ -54,6 +53,7 @@
                     }
                 }
 
+                //счётчики
                 Console.WriteLine("Чётных чисел: " + evenNumbersCounter);
                 Console.WriteLine("Нечётных чисел: " + oddNumbersCounter);
                 Console.ReadLine();
