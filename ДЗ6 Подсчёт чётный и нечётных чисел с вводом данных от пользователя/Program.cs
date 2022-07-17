@@ -48,11 +48,11 @@
                     {
                         case 0:
                             evenNumbersSum += min;  //Замена evenNumbersSum = evenNumbersSum + min
-                            evenNumbersCounter++;
+                            evenNumbersCounter++; // Счётчик чётных
                             break;
                         case 1:
                             oddNumbersSum += min;
-                            oddNumbersCounter++;
+                            oddNumbersCounter++; // Счётчик нечётных
                             break;
 
                     }
