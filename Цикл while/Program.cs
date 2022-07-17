@@ -4,11 +4,13 @@
     {
         static void Main(string[] args)
         {
-            int count = 1000;
-            while (count > 0)//Выполняется до тех пор пока выполняется условие в скобках
+            int count = 0;
+            int max = int.Parse(Console.ReadLine());
+
+            while (max > count)//Выполняется до тех пор пока выполняется условие в скобках
             {
-                count = count - 7;
                 Console.WriteLine(count);
+                count = count + 2;
             }
         }
     }
