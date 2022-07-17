@@ -6,7 +6,7 @@
         {
             while (true)
             {
-                int min, max;
+                int min, max, oddNumbersSum, evenNumbersSum;
                 uint oddNumbersCounter, evenNumbersCounter; // счётчики, отрицательного значения быть не может!
 
 
@@ -36,6 +36,9 @@
 
                 oddNumbersCounter = 0; //нечётные
                 evenNumbersCounter = 0; //чётные
+
+                oddNumbersSum = 0; //Сумма нечётных
+                evenNumbersSum = 0; //Сумма чётных
                 
                 while (min < max)
                 {
@@ -44,9 +47,11 @@
                     switch(min % 2)
                     {
                         case 0:
+                            evenNumbersSum = evenNumbersSum + min;  
                             evenNumbersCounter++;
                             break;
                         case 1:
+                            oddNumbersSum = oddNumbersSum + min;
                             oddNumbersCounter++;
                             break;
 
@@ -54,8 +59,8 @@
                 }
 
                 //счётчики
-                Console.WriteLine("Чётных чисел: " + evenNumbersCounter);
-                Console.WriteLine("Нечётных чисел: " + oddNumbersCounter);
+                Console.WriteLine("Чётных чисел: " + evenNumbersCounter + " , их сумма: " + evenNumbersSum);
+                Console.WriteLine("Нечётных чисел: " + oddNumbersCounter + " , их сумма: " + oddNumbersSum);
                 Console.ReadLine();
             }
 
