@@ -47,11 +47,11 @@
                     switch(min % 2)
                     {
                         case 0:
-                            evenNumbersSum = evenNumbersSum + min;  
+                            evenNumbersSum += min;  //Замена evenNumbersSum = evenNumbersSum + min
                             evenNumbersCounter++;
                             break;
                         case 1:
-                            oddNumbersSum = oddNumbersSum + min;
+                            oddNumbersSum += min;
                             oddNumbersCounter++;
                             break;
 
@@ -59,8 +59,8 @@
                 }
 
                 //счётчики
-                Console.WriteLine("Чётных чисел: " + evenNumbersCounter + " , их сумма: " + evenNumbersSum);
-                Console.WriteLine("Нечётных чисел: " + oddNumbersCounter + " , их сумма: " + oddNumbersSum);
+                Console.WriteLine("Чётных чисел: " + evenNumbersCounter + "; Их сумма: " + evenNumbersSum);
+                Console.WriteLine("Нечётных чисел: " + oddNumbersCounter + "; Их сумма: " + oddNumbersSum);
                 Console.ReadLine();
             }
 
