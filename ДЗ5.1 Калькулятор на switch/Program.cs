@@ -68,7 +68,7 @@
             {
                 Console.WriteLine("Вы ввели некорректный тип данных!");
             }
-            
+            Console.ReadLine();
         }
     }
 }
