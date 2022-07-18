@@ -39,9 +39,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ДЗ5.1 Калькулят�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ДЗ5.2 Калькулятор на switch другая проверка", "ДЗ5.2 Калькулятор на switch другая проверка\ДЗ5.2 Калькулятор на switch другая проверка.csproj", "{8F623949-4BB5-46AF-98FD-768016BD4D0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Цикл while", "Цикл while\Цикл while.csproj", "{0698D402-339F-46A3-A18F-EC2B8534FF97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Цикл while", "Цикл while\Цикл while.csproj", "{0698D402-339F-46A3-A18F-EC2B8534FF97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ДЗ6 Подсчёт чётный и нечётных чисел с вводом данных от пользователя", "ДЗ6 Подсчёт чётный и нечётных чисел с вводом данных от пользователя\ДЗ6 Подсчёт чётный и нечётных чисел с вводом данных от пользователя.csproj", "{2C04ECFE-6BF4-496E-9835-D4EBDD147D00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ДЗ6 Подсчёт чётный и нечётных чисел с вводом данных от пользователя", "ДЗ6 Подсчёт чётный и нечётных чисел с вводом данных от пользователя\ДЗ6 Подсчёт чётный и нечётных чисел с вводом данных от пользователя.csproj", "{2C04ECFE-6BF4-496E-9835-D4EBDD147D00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Цикл FOR", "Цикл FOR\Цикл FOR.csproj", "{9CAFA7D2-BE6C-4A2C-843C-0CC5DF0BB144}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{2C04ECFE-6BF4-496E-9835-D4EBDD147D00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C04ECFE-6BF4-496E-9835-D4EBDD147D00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C04ECFE-6BF4-496E-9835-D4EBDD147D00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CAFA7D2-BE6C-4A2C-843C-0CC5DF0BB144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CAFA7D2-BE6C-4A2C-843C-0CC5DF0BB144}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CAFA7D2-BE6C-4A2C-843C-0CC5DF0BB144}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CAFA7D2-BE6C-4A2C-843C-0CC5DF0BB144}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
