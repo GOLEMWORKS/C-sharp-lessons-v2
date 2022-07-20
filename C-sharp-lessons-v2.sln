@@ -51,9 +51,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BREAK", "BREAK\BREAK.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CONTINUE", "CONTINUE\CONTINUE.csproj", "{F4B8CAC1-781B-4420-9304-41C328E9F181}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Вложенные циклы (Конструкции)", "Вложенные циклы (Конструкции)\Вложенные циклы (Конструкции).csproj", "{C5145A27-0FE4-4B13-B230-68B193D3B046}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Вложенные циклы (Конструкции)", "Вложенные циклы (Конструкции)\Вложенные циклы (Конструкции).csproj", "{C5145A27-0FE4-4B13-B230-68B193D3B046}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ДЗ7 Отрисовка треугольников в консоли", "ДЗ7 Отрисовка треугольников в консоли\ДЗ7 Отрисовка треугольников в консоли.csproj", "{BC70FE14-5F7F-49AB-993E-9F27DB1E0938}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ДЗ7 Отрисовка треугольников в консоли", "ДЗ7 Отрисовка треугольников в консоли\ДЗ7 Отрисовка треугольников в консоли.csproj", "{BC70FE14-5F7F-49AB-993E-9F27DB1E0938}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Тернарный оператор", "Тернарный оператор\Тернарный оператор.csproj", "{098B6D25-8272-421B-A910-E191DE5FEA2A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +167,10 @@ Global
 		{BC70FE14-5F7F-49AB-993E-9F27DB1E0938}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC70FE14-5F7F-49AB-993E-9F27DB1E0938}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC70FE14-5F7F-49AB-993E-9F27DB1E0938}.Release|Any CPU.Build.0 = Release|Any CPU
+		{098B6D25-8272-421B-A910-E191DE5FEA2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{098B6D25-8272-421B-A910-E191DE5FEA2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{098B6D25-8272-421B-A910-E191DE5FEA2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{098B6D25-8272-421B-A910-E191DE5FEA2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
