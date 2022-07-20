@@ -49,7 +49,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Цикл  FOR. Специф
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BREAK", "BREAK\BREAK.csproj", "{CA667105-4FCC-4BBC-839E-967BE8A4CC9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CONTINUE", "CONTINUE\CONTINUE.csproj", "{F4B8CAC1-781B-4420-9304-41C328E9F181}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CONTINUE", "CONTINUE\CONTINUE.csproj", "{F4B8CAC1-781B-4420-9304-41C328E9F181}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Вложенные циклы (Конструкции)", "Вложенные циклы (Конструкции)\Вложенные циклы (Конструкции).csproj", "{C5145A27-0FE4-4B13-B230-68B193D3B046}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{F4B8CAC1-781B-4420-9304-41C328E9F181}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4B8CAC1-781B-4420-9304-41C328E9F181}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4B8CAC1-781B-4420-9304-41C328E9F181}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5145A27-0FE4-4B13-B230-68B193D3B046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5145A27-0FE4-4B13-B230-68B193D3B046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5145A27-0FE4-4B13-B230-68B193D3B046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5145A27-0FE4-4B13-B230-68B193D3B046}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
