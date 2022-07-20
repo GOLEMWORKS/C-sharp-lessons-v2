@@ -45,7 +45,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ДЗ6 Подсчёт чёт
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Цикл FOR", "Цикл FOR\Цикл FOR.csproj", "{9CAFA7D2-BE6C-4A2C-843C-0CC5DF0BB144}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Цикл  FOR. Специфика работы", "Цикл  FOR. Специфика работы\Цикл  FOR. Специфика работы.csproj", "{84F9627F-0F85-462D-88B1-C4CD888B9B85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Цикл  FOR. Специфика работы", "Цикл  FOR. Специфика работы\Цикл  FOR. Специфика работы.csproj", "{84F9627F-0F85-462D-88B1-C4CD888B9B85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BREAK", "BREAK\BREAK.csproj", "{CA667105-4FCC-4BBC-839E-967BE8A4CC9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,10 @@ Global
 		{84F9627F-0F85-462D-88B1-C4CD888B9B85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84F9627F-0F85-462D-88B1-C4CD888B9B85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84F9627F-0F85-462D-88B1-C4CD888B9B85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA667105-4FCC-4BBC-839E-967BE8A4CC9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA667105-4FCC-4BBC-839E-967BE8A4CC9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA667105-4FCC-4BBC-839E-967BE8A4CC9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA667105-4FCC-4BBC-839E-967BE8A4CC9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
