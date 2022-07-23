@@ -55,7 +55,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Вложенные цикл
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ДЗ7 Отрисовка треугольников в консоли", "ДЗ7 Отрисовка треугольников в консоли\ДЗ7 Отрисовка треугольников в консоли.csproj", "{BC70FE14-5F7F-49AB-993E-9F27DB1E0938}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Тернарный оператор", "Тернарный оператор\Тернарный оператор.csproj", "{098B6D25-8272-421B-A910-E191DE5FEA2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Тернарный оператор", "Тернарный оператор\Тернарный оператор.csproj", "{098B6D25-8272-421B-A910-E191DE5FEA2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Одномерный массив", "Одномерный массив\Одномерный массив.csproj", "{96A626C1-DDFA-4C86-A0CB-009078714C06}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,6 +173,10 @@ Global
 		{098B6D25-8272-421B-A910-E191DE5FEA2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{098B6D25-8272-421B-A910-E191DE5FEA2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{098B6D25-8272-421B-A910-E191DE5FEA2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96A626C1-DDFA-4C86-A0CB-009078714C06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96A626C1-DDFA-4C86-A0CB-009078714C06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96A626C1-DDFA-4C86-A0CB-009078714C06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96A626C1-DDFA-4C86-A0CB-009078714C06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
