@@ -38,7 +38,6 @@
 
                 num = (data >= 0) ? data : 0; //Скобки необязательны, но удобны для понимания кода
                 Console.WriteLine(num);
-                Console.ReadLine();
             } 
         }
     }
