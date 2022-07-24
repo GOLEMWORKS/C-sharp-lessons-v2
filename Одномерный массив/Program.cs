@@ -27,10 +27,18 @@
             //Инициализация Массива 
 
             int[] mySecondArray = new int[5] {1,2,3,4,5}; // в фигурных скобках может быть ровно столько элементов, сколько задано при инициализации (int[5])
+            Console.WriteLine("\nВсего элементов во втором массиве: " + mySecondArray.Length);
 
             int[] myThirdArray = {1,2,4}; // Создаётся массив на то количество элементов, которое указано в фигурных скобках. Можно не указывать тип данных и метод new
+            Console.WriteLine("\nВсего элементов в третьем массиве: " + myThirdArray.Length);
 
+            Console.WriteLine("\nЧетвёртый массив:");
             int[] myFourthArray = Enumerable.Range(4,12).ToArray(); // Присваивает элементам массива значения начиная с 4х. Всего элементов в массва 12
+            for (int i = 0; i < myFourthArray.Length; i++)
+            {
+                Console.WriteLine(myFourthArray[i]);
+            }
+            Console.WriteLine("\nВсего элементов в четвёртом массиве: " + myFourthArray.Length);
         }
     }
 }
