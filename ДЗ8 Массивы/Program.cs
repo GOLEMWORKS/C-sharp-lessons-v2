@@ -111,7 +111,7 @@
                                                     continue;
                                                 }
                                         }
-                                        Console.WriteLine("Сумма всех чётных чисел в массиве: " + decimalSum);
+                                        Console.WriteLine(decimalSum);
 
                                         Console.ReadLine();
 
