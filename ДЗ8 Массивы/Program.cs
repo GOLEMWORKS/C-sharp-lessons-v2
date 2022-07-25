@@ -141,9 +141,10 @@
                                     }
                                     Console.WriteLine("--------Наименьшее число массива:------------");
 
-                                    Array.Sort(fourthArray);//Сортировка методом Sort
+                                             //Array.Sort(fourthArray); Сортировка методом Sort (И выводил значение нулевого эл-та)
+                            
 
-                                    Console.WriteLine(fourthArray[0]);   
+                                    Console.WriteLine(fourthArray.Min());   //Правильный способ через функцию Min
 
                                     Console.ReadLine();
 

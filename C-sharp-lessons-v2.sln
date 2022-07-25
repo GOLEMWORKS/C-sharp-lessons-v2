@@ -59,9 +59,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Тернарный опер
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Одномерный массив", "Одномерный массив\Одномерный массив.csproj", "{96A626C1-DDFA-4C86-A0CB-009078714C06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Взаимодействие массивов и циклов. Вывод массивов", "Взаимодействие массивов и циклов. Вывод массивов\Взаимодействие массивов и циклов. Вывод массивов.csproj", "{64B64A86-D38E-457C-B840-D3C3E1189F80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Взаимодействие массивов и циклов. Вывод массивов", "Взаимодействие массивов и циклов. Вывод массивов\Взаимодействие массивов и циклов. Вывод массивов.csproj", "{64B64A86-D38E-457C-B840-D3C3E1189F80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ДЗ8 Массивы", "ДЗ8 Массивы\ДЗ8 Массивы.csproj", "{E6751F94-4A89-435D-B5E0-36542629E988}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ДЗ8 Массивы", "ДЗ8 Массивы\ДЗ8 Массивы.csproj", "{E6751F94-4A89-435D-B5E0-36542629E988}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Реальная работа с массивами", "Реальная работа с массивами\Реальная работа с массивами.csproj", "{05E2D1B8-6121-4A0E-A83D-5DF2A1878969}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -189,6 +191,10 @@ Global
 		{E6751F94-4A89-435D-B5E0-36542629E988}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6751F94-4A89-435D-B5E0-36542629E988}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6751F94-4A89-435D-B5E0-36542629E988}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05E2D1B8-6121-4A0E-A83D-5DF2A1878969}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05E2D1B8-6121-4A0E-A83D-5DF2A1878969}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05E2D1B8-6121-4A0E-A83D-5DF2A1878969}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05E2D1B8-6121-4A0E-A83D-5DF2A1878969}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
