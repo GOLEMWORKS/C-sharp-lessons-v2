@@ -11,7 +11,7 @@
             int[,] twoDimensionsArray = new int[3, 5]; //[Строки, колонки]
             twoDimensionsArray[0,2] = 1;
 
-            Console.WriteLine(twoDimensionsArray[0,2]);
+            Console.WriteLine(twoDimensionsArray[0,2] + "\n");
 
             //Инициализация 
 
@@ -22,7 +22,8 @@
                 {12,42,4,5,98 },
                 {12,42,4,5,98 },
                 {1, 2,13,4,1},
-                {12,42,4,5,98 }
+                {12,42,4,5,98 },
+                {65,432,45,6,2 }
             };
 
             //вывод двумерного массива строкой
@@ -34,13 +35,13 @@
 
             //вывод двумерного массива табличкой
             Console.WriteLine(twoDimensionsArray2.Rank); // .Rank - показывает мерность массива
-            Console.WriteLine("Количество эл-в по вертикали:" + twoDimensionsArray2.GetLength(0)); // .GetLength - позволяет узнать к-во элементов в измерении. Нумерация начинается с нуля, поэтому первое измерение = 0, второе = 1
+            Console.WriteLine("\nКоличество эл-в по вертикали:" + twoDimensionsArray2.GetLength(0)); // .GetLength - позволяет узнать к-во элементов в измерении. Нумерация начинается с нуля, поэтому первое измерение = 0, второе = 1
             Console.WriteLine("Количество эл-в по горизонтали:" + twoDimensionsArray2.GetLength(1));
 
-            int ArrayHeight = twoDimensionsArray2.GetLength(0);
+            int ArrayHeight = twoDimensionsArray2.GetLength(0); // За место переменных можно вставлять код с методом GetLength прямо в цикл
             int ArrayWidth = twoDimensionsArray2.GetLength(1);
 
-            Console.WriteLine("Вывод массива twoDimensionsArray2");
+            Console.WriteLine("\nВывод массива twoDimensionsArray2");
             for (int y = 0; y < ArrayHeight; y++) // Вывод элементов по вертикали
             {
                 for (int x = 0; x < ArrayWidth; x++) //Вывод элементов по горизонтали
