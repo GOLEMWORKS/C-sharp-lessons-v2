@@ -71,6 +71,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Двумерные прям
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Заполнение двумерного массива случайными числами", "Заполнение двумерного массива случайными числами\Заполнение двумерного массива случайными числами.csproj", "{A938E07C-D593-4426-9E3E-A0A4229FC4CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Заполнение двумерного массива с клавиатуры", "Заполнение двумерного массива с клавиатуры\Заполнение двумерного массива с клавиатуры.csproj", "{A8D80083-8693-4ACC-A57E-516929CD5022}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -213,6 +215,10 @@ Global
 		{A938E07C-D593-4426-9E3E-A0A4229FC4CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A938E07C-D593-4426-9E3E-A0A4229FC4CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A938E07C-D593-4426-9E3E-A0A4229FC4CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8D80083-8693-4ACC-A57E-516929CD5022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8D80083-8693-4ACC-A57E-516929CD5022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8D80083-8693-4ACC-A57E-516929CD5022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8D80083-8693-4ACC-A57E-516929CD5022}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
