@@ -19,7 +19,7 @@
 
                     arrayLength = uint.Parse(Console.ReadLine());
 
-                    if(arrayLength >= 5 || arrayHeigth >= 5)
+                    if(arrayLength*arrayHeigth >= 30)
                     {
                         Console.WriteLine("Вы действительно хотите ввести в ручную " + (arrayHeigth*arrayLength) + " символов? Введите да или нет");
                         switch(Console.ReadLine())
@@ -30,12 +30,11 @@
                                 }
                                 break;
                             case "нет":
-                                continue;
-                                break;
+                                continue; // break не имеет смысла т.к. после оператора continue программа возвращается к началу (Циклу while)
                             default:
                                 Console.WriteLine("Не понял ответа. Введите в следующий раз да или нет!");
                                 Console.ReadLine();
-                                break; // continue не имеет смысла, в данном случае работает точно также
+                                continue; // break не имеет смысла т.к. после оператора continue программа возвращается к началу (Циклу while), а не прдолжается с исключением
                         }
                     }
                 }
