@@ -77,7 +77,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ступенчатые (З�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Массивы третьей и более мерности", "Массивы третьей и более мерности\Массивы третьей и более мерности.csproj", "{CF513F4E-BBC5-4980-91AA-37AA4D0979DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Методы и функции", "Методы и функции\Методы и функции.csproj", "{BAC031E5-F02C-4005-838E-1AC19553CF0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Методы и функции", "Методы и функции\Методы и функции.csproj", "{BAC031E5-F02C-4005-838E-1AC19553CF0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ДЗ9 Методы", "ДЗ9 Методы\ДЗ9 Методы.csproj", "{EEEA5896-368E-4375-81FC-8D440CEAE982}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -237,6 +239,10 @@ Global
 		{BAC031E5-F02C-4005-838E-1AC19553CF0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAC031E5-F02C-4005-838E-1AC19553CF0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAC031E5-F02C-4005-838E-1AC19553CF0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEEA5896-368E-4375-81FC-8D440CEAE982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEEA5896-368E-4375-81FC-8D440CEAE982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEEA5896-368E-4375-81FC-8D440CEAE982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEEA5896-368E-4375-81FC-8D440CEAE982}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
