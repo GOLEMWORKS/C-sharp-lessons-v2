@@ -28,6 +28,8 @@
 
             //(Чем больше измерений, тем больше циклов)
 
+            Console.WriteLine("\n\t\t Трёхмерный прямоугольный массив");
+
             //Заполнение массива случайными числами
             Random rand = new Random();
 
@@ -59,6 +61,41 @@
                 }
                 Console.WriteLine();
             }
+
+            Console.WriteLine("\n\t\t Трёхмерный зубчатый массив");
+
+            //Заполнение случайными числами, массивы вложенные в массив имеют случайную длину
+
+            int[][][] threeDimStairArray = new int[rand.Next(2, 6)][][]; // 2 - минимальное значение, через запятую 6 - максимальное
+
+            for (int i = 0; i < threeDimStairArray.Length; i++)
+            {
+                threeDimStairArray[i] = new int[rand.Next(4, 8)][];
+
+                for (int j = 0; j < threeDimStairArray[i].Length; j++)
+                {
+                    threeDimStairArray[i][j] = new int[rand.Next(3, 7)];
+                    for (int k = 0; k < threeDimStairArray[i][j].Length; k++)
+                    {
+                        threeDimStairArray[i][j][k] = rand.Next(100);
+                    }
+                }
+            }
+
+            for (int i = 0; i < threeDimStairArray.Length; i++)
+            {
+                Console.WriteLine("Page #" + (i + 1));
+                for (int j = 0; j < threeDimStairArray[i].Length; j++)
+                {
+                    for (int k = 0; k < threeDimStairArray[i][j].Length; k++)
+                    {
+                        Console.Write(threeDimStairArray[i][j][k] + " ");
+                    }
+                    Console.WriteLine();
+                }
+                Console.WriteLine();
+            }
+
 
             Console.ReadLine();
         }
