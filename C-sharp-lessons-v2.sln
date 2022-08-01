@@ -81,7 +81,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Методы и функц�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ДЗ9 Методы", "ДЗ9 Методы\ДЗ9 Методы.csproj", "{EEEA5896-368E-4375-81FC-8D440CEAE982}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Перегрузка в методах", "Перегрузка в методах\Перегрузка в методах.csproj", "{417B5A1C-765B-4A65-AA3F-D220403F72B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Перегрузка в методах", "Перегрузка в методах\Перегрузка в методах.csproj", "{417B5A1C-765B-4A65-AA3F-D220403F72B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Область видимости и контекст переменной", "Область видимости и контекст переменной\Область видимости и контекст переменной.csproj", "{BC09A607-0E88-49B8-A167-E43C3B44C894}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -249,6 +251,10 @@ Global
 		{417B5A1C-765B-4A65-AA3F-D220403F72B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{417B5A1C-765B-4A65-AA3F-D220403F72B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{417B5A1C-765B-4A65-AA3F-D220403F72B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC09A607-0E88-49B8-A167-E43C3B44C894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC09A607-0E88-49B8-A167-E43C3B44C894}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC09A607-0E88-49B8-A167-E43C3B44C894}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC09A607-0E88-49B8-A167-E43C3B44C894}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
