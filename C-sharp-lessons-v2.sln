@@ -85,7 +85,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Перегрузка в м�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Область видимости и контекст переменной", "Область видимости и контекст переменной\Область видимости и контекст переменной.csproj", "{BC09A607-0E88-49B8-A167-E43C3B44C894}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ссылочные и значимые типы", "Ссылочные и значимые типы\Ссылочные и значимые типы.csproj", "{21855871-101A-42C0-BDC3-5426441B4F34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ссылочные и значимые типы", "Ссылочные и значимые типы\Ссылочные и значимые типы.csproj", "{21855871-101A-42C0-BDC3-5426441B4F34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NULL", "NULL\NULL.csproj", "{627E282E-4849-430B-912D-BCDD0A5349CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -261,6 +263,10 @@ Global
 		{21855871-101A-42C0-BDC3-5426441B4F34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21855871-101A-42C0-BDC3-5426441B4F34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21855871-101A-42C0-BDC3-5426441B4F34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{627E282E-4849-430B-912D-BCDD0A5349CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{627E282E-4849-430B-912D-BCDD0A5349CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{627E282E-4849-430B-912D-BCDD0A5349CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{627E282E-4849-430B-912D-BCDD0A5349CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
