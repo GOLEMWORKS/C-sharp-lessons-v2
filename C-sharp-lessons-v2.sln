@@ -87,7 +87,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Область видимо
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ссылочные и значимые типы", "Ссылочные и значимые типы\Ссылочные и значимые типы.csproj", "{21855871-101A-42C0-BDC3-5426441B4F34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NULL", "NULL\NULL.csproj", "{627E282E-4849-430B-912D-BCDD0A5349CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NULL", "NULL\NULL.csproj", "{627E282E-4849-430B-912D-BCDD0A5349CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Оператор null-объединения", "Оператор null-объединения\Оператор null-объединения.csproj", "{80872A51-91BA-48D2-8DE1-1D4996A6D16F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -267,6 +269,10 @@ Global
 		{627E282E-4849-430B-912D-BCDD0A5349CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{627E282E-4849-430B-912D-BCDD0A5349CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{627E282E-4849-430B-912D-BCDD0A5349CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80872A51-91BA-48D2-8DE1-1D4996A6D16F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80872A51-91BA-48D2-8DE1-1D4996A6D16F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80872A51-91BA-48D2-8DE1-1D4996A6D16F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80872A51-91BA-48D2-8DE1-1D4996A6D16F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
