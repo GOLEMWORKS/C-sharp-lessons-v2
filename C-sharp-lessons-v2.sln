@@ -93,7 +93,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Оператор null-об�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Оператор присваивания объединения  значения  с null", "Оператор присваивания объединения  значения  с null\Оператор присваивания объединения  значения  с null.csproj", "{A3E71C6A-D9C4-4540-837C-524136D4E4E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Оператор условного null", "Оператор условного null\Оператор условного null.csproj", "{0F7D0597-D6FC-4545-941F-6DEDD30B3D95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Оператор условного null", "Оператор условного null\Оператор условного null.csproj", "{0F7D0597-D6FC-4545-941F-6DEDD30B3D95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REF", "REF\REF.csproj", "{D6FB9723-734C-4B51-9A2A-681C36BFE79E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -285,6 +287,10 @@ Global
 		{0F7D0597-D6FC-4545-941F-6DEDD30B3D95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F7D0597-D6FC-4545-941F-6DEDD30B3D95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F7D0597-D6FC-4545-941F-6DEDD30B3D95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6FB9723-734C-4B51-9A2A-681C36BFE79E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6FB9723-734C-4B51-9A2A-681C36BFE79E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6FB9723-734C-4B51-9A2A-681C36BFE79E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6FB9723-734C-4B51-9A2A-681C36BFE79E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
