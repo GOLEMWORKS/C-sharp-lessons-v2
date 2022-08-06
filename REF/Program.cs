@@ -29,6 +29,26 @@
             //менять саму ссылку
 
             // Проверка на null и вывод значения по умолчанию в массивах пример
+
+
+            //Ссылочные локальные переменные 
+            int[] localArr = { 2, 4, 2, 5, 1, 45, 8 };
+
+            int localInt = localArr[0];
+            localInt = 12; // Присваиваем переменной значение 12, но в массиве остаётся 2 т.к. они не связанны
+
+            ref int refLocalInt = ref localArr[0];
+            refLocalInt = 19;// Присваиваем переменной значение 19, в массиве 2 меняется на 19
+
+            Console.WriteLine(localArr[0]);//выведет 19
+
+
+            //Cсылочные возвращаемые значения в ссылочную локальную переменную
+            int[] localReturnArr = { 2, 4, 5, 1 };
+            ref int refReturnInt = ref ArrayRefNumbers(localReturnArr);
+
+            refReturnInt = 3; // В массиве изменится число на 3 и после метода выведется число 3, а не 2
+            Console.WriteLine(localReturnArr[0]);//выведет 3
         }
 
         static void Foo(ref int a) // Типовое использование ref, без него выводится 2, с ним -5
@@ -51,6 +71,11 @@
         static void ArrayChange(ref int[] a) //ref для ссылочных типов влияет на саму ссылку к данным
         {
             a = null;
+        }
+
+        static ref int ArrayRefNumbers(int[] num) //Ссылочные возвращаемые значения
+        {
+            return ref num[0];
         }
     }
 
