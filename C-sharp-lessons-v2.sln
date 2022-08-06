@@ -95,7 +95,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Оператор присв
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Оператор условного null", "Оператор условного null\Оператор условного null.csproj", "{0F7D0597-D6FC-4545-941F-6DEDD30B3D95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REF", "REF\REF.csproj", "{D6FB9723-734C-4B51-9A2A-681C36BFE79E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "REF", "REF\REF.csproj", "{D6FB9723-734C-4B51-9A2A-681C36BFE79E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ДЗ10 Отработка REF и методов на массивах", "ДЗ10 Отработка REF и методов на массивах\ДЗ10 Отработка REF и методов на массивах.csproj", "{A3347B54-14B4-4CEC-B91D-C580A77A1209}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -291,6 +293,10 @@ Global
 		{D6FB9723-734C-4B51-9A2A-681C36BFE79E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6FB9723-734C-4B51-9A2A-681C36BFE79E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6FB9723-734C-4B51-9A2A-681C36BFE79E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3347B54-14B4-4CEC-B91D-C580A77A1209}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3347B54-14B4-4CEC-B91D-C580A77A1209}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3347B54-14B4-4CEC-B91D-C580A77A1209}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3347B54-14B4-4CEC-B91D-C580A77A1209}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
