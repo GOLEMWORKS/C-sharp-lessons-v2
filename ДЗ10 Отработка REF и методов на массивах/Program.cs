@@ -32,31 +32,28 @@
                             int[] firstTaskArray = RandomArray();
 
                             Console.WriteLine("Текущий массив состоит из " + firstTaskArray.Length + " элементов");
-                            foreach (var item in firstTaskArray)
-                            {
-                                Console.Write(item + " ");
-                            }
+                            ArrayDisplay(firstTaskArray);
+                        
                             Console.WriteLine("");
 
                         Console.WriteLine("Введите новую длину для массива. По умолчанию длина установится на 1!");
                         
-                        int newFirstTaskArraySize = IsNumber(Console.ReadLine());
+                            int newFirstTaskArraySize = IsNumber(Console.ReadLine());
 
-                        myResize(ref firstTaskArray, newFirstTaskArraySize);
+                            myResize(ref firstTaskArray, newFirstTaskArraySize);
 
-                        Console.WriteLine("Новый размер массива: " + firstTaskArray.Length);
-                            foreach (var item in firstTaskArray)
-                            {
-                                Console.Write(item + " ");
-                            }
+                            Console.WriteLine("Новый размер массива: " + firstTaskArray.Length);
+                            
+                        ArrayDisplay(firstTaskArray);
 
-                        
+
                         break;
 
                     case 2:
                         Console.WriteLine("Задание 2: Добавление элемента в конец, начало или по индеку в массив");
 
                         int[] secondTaskArray = RandomArray();
+                        Console.WriteLine("Укажите индекс элемента: ");
 
 
                         break;
@@ -91,6 +88,14 @@
             }
 
             return array;
+        }
+
+        static void ArrayDisplay<T>(T[] array)
+        {
+            foreach (var item in array)
+            {
+                Console.Write(item + " ");
+            }
         }
 
         static int IsNumber(string s)
@@ -129,6 +134,11 @@
 
                 array = newArray; // переопределяем ссылку на данные
              
+        }
+
+        static void InsertByIndex(ref int[] array, int index)
+        {
+
         }
         
     }
