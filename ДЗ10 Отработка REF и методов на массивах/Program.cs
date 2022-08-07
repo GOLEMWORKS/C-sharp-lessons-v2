@@ -54,7 +54,7 @@
 
                             int[] secondTaskArray = RandomArray();
                         ArrayDisplay(secondTaskArray);
-                            Console.WriteLine();
+                            Console.WriteLine("\nДлина массива: " + secondTaskArray.Length);
 
                             Console.WriteLine("Укажите индекс элемента: ");
                             int indexInSecondTask = IsNumber(Console.ReadLine());
