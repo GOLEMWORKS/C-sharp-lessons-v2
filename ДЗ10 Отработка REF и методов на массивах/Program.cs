@@ -145,13 +145,13 @@
              
         }
 
-        static void InsertByIndex(ref int[] array, int index, int value)
+        static void InsertByIndex<T>(ref T[] array, int index, T value)
         {
-            int[] newArray;
+            T[] newArray;
 
             if (array.Length >= index)
             {
-                newArray = new int[array.Length + 1];
+                newArray = new T[array.Length + 1];
 
                 for (int i = 0; i < index; i++)
                 {
@@ -168,7 +168,7 @@
             }
             else
             {
-                newArray = new int[array.Length + (index - array.Length + 1)];
+                newArray = new T[array.Length + (index - array.Length + 1)];
 
 
                 for (int i = 0; i < index && i < array.Length; i++)
