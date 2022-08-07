@@ -32,15 +32,15 @@
                             int[] firstTaskArray = RandomArray();
 
                             Console.WriteLine("Текущий массив состоит из " + firstTaskArray.Length + " элементов");
-                            ArrayDisplay(firstTaskArray);
+                        ArrayDisplay(firstTaskArray);
                         
                             Console.WriteLine("");
 
-                        Console.WriteLine("Введите новую длину для массива. По умолчанию длина установится на 1!");
+                            Console.WriteLine("Введите новую длину для массива. По умолчанию длина установится на 1!");
                         
                             int newFirstTaskArraySize = IsNumber(Console.ReadLine());
 
-                            myResize(ref firstTaskArray, newFirstTaskArraySize);
+                        myResize(ref firstTaskArray, newFirstTaskArraySize);
 
                             Console.WriteLine("Новый размер массива: " + firstTaskArray.Length);
                             
@@ -50,11 +50,20 @@
                         break;
 
                     case 2:
-                        Console.WriteLine("Задание 2: Добавление элемента в конец, начало или по индеку в массив");
+                            Console.WriteLine("Задание 2: Добавление элемента в конец, начало или по индеку в массив");
 
-                        int[] secondTaskArray = RandomArray();
-                        Console.WriteLine("Укажите индекс элемента: ");
+                            int[] secondTaskArray = RandomArray();
+                        ArrayDisplay(secondTaskArray);
+                            Console.WriteLine();
 
+                            Console.WriteLine("Укажите индекс элемента: ");
+                            int indexInSecondTask = IsNumber(Console.ReadLine());
+
+                            Console.WriteLine("Укажите значение элемента: ");
+                            int valueInSecondTask = IsNumber(Console.ReadLine());
+
+                        InsertByIndex(ref secondTaskArray, indexInSecondTask, valueInSecondTask);
+                        ArrayDisplay(secondTaskArray);
 
                         break;
 
@@ -136,9 +145,41 @@
              
         }
 
-        static void InsertByIndex(ref int[] array, int index)
+        static void InsertByIndex(ref int[] array, int index, int value)
         {
+            int[] newArray;
 
+            if (array.Length >= index)
+            {
+                newArray = new int[array.Length + 1];
+
+                for (int i = 0; i < index; i++)
+                {
+                    newArray[i] = array[i];
+                }
+
+                newArray[index] = value;
+
+                for (int i = index; i < array.Length; i++)
+                {
+                    newArray[i + 1] = array[i];
+                }
+
+            }
+            else
+            {
+                newArray = new int[array.Length + (index - array.Length + 1)];
+
+
+                for (int i = 0; i < index && i < array.Length; i++)
+                {
+                    newArray[i] = array[i];
+                }
+
+                newArray[index] = value;
+            }
+
+            array = newArray;
         }
         
     }
