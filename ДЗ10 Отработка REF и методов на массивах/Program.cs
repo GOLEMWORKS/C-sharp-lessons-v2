@@ -107,7 +107,7 @@
             }
         }
 
-        static void myResize(ref int[] array, int newSize)// Самописный аналог resize
+        static void myResize<T>(ref T[] array, int newSize)// generic - работает с любыми типами данных
         {
 
             switch (newSize > 0)
@@ -120,7 +120,7 @@
                     break; 
             }
 
-            int[] newArray = new int[newSize];
+            T[] newArray = new T[newSize];
 
                 for (int i = 0; i < array.Length && i < newArray.Length; i++)
                 {
