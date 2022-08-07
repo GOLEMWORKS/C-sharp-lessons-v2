@@ -82,7 +82,7 @@
         {
             Random randomNumber = new Random();
 
-            int[] array = new int[randomNumber.Next(10)];
+            int[] array = new int[randomNumber.Next(1,10)];
 
 
             for (int i = 0; i < array.Length; i++)
@@ -122,24 +122,13 @@
 
             int[] newArray = new int[newSize];
 
-            if (array.Length < newSize)
-            {
-                for (int i = 0; i < array.Length; i++)
+                for (int i = 0; i < array.Length && i < newArray.Length; i++)
                 {
                     newArray[i] = array[i];
                 }
 
                 array = newArray; // переопределяем ссылку на данные
-            }
-            else if (array.Length > newSize)
-            {
-                for (int i = 0; i < newArray.Length; i++)
-                {
-                    newArray[i] = array[i];
-                }
-
-                array = newArray; 
-            }   
+             
         }
         
     }
