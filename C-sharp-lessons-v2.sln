@@ -99,7 +99,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "REF", "REF\REF.csproj", "{D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ДЗ10 Отработка REF и методов на массивах", "ДЗ10 Отработка REF и методов на массивах\ДЗ10 Отработка REF и методов на массивах.csproj", "{A3347B54-14B4-4CEC-B91D-C580A77A1209}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OUT", "OUT\OUT.csproj", "{BB7DD40B-0AF1-44F3-9B13-90746DFFC0ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OUT", "OUT\OUT.csproj", "{BB7DD40B-0AF1-44F3-9B13-90746DFFC0ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IN", "IN\IN.csproj", "{B63EB77A-B5AD-4530-94E6-38EE8C752ADB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -303,6 +305,10 @@ Global
 		{BB7DD40B-0AF1-44F3-9B13-90746DFFC0ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB7DD40B-0AF1-44F3-9B13-90746DFFC0ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB7DD40B-0AF1-44F3-9B13-90746DFFC0ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B63EB77A-B5AD-4530-94E6-38EE8C752ADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B63EB77A-B5AD-4530-94E6-38EE8C752ADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B63EB77A-B5AD-4530-94E6-38EE8C752ADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B63EB77A-B5AD-4530-94E6-38EE8C752ADB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
