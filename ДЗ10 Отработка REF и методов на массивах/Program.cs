@@ -45,8 +45,6 @@
                             Console.WriteLine("Новый размер массива: " + firstTaskArray.Length);
                             
                         ArrayDisplay(firstTaskArray);
-
-
                         break;
 
                     case 2:
@@ -54,7 +52,7 @@
 
                             int[] secondTaskArray = RandomArray();
                         ArrayDisplay(secondTaskArray);
-                            Console.WriteLine("\nДлина массива: " + secondTaskArray.Length);
+                            Console.Write("\nДлина массива: " + secondTaskArray.Length);
 
                             Console.WriteLine("Укажите индекс элемента: ");
                             int indexInSecondTask = IsNumber(Console.ReadLine());
@@ -64,22 +62,24 @@
 
                         InsertByIndex(ref secondTaskArray, indexInSecondTask, valueInSecondTask);
                         ArrayDisplay(secondTaskArray);
-
                         break;
 
                     case 3:
-                        Console.WriteLine("Задание 3: Удаление элемента с конца, начала или по индеку в массиве");
+                            Console.WriteLine("Задание 3: Удаление элемента с конца, начала или по индеку в массиве");
+                            int[] thirdTaskArray = RandomArray();
+                        ArrayDisplay(thirdTaskArray);
+                            Console.WriteLine("\nДлина массива: " + thirdTaskArray.Length);
+
+                            Console.Write("Укажите индекс удаляемого элемента: ");
+                            int thirdTaskDeleteNum = IsNumber(Console.ReadLine());
+                        DeleteByIndex(ref thirdTaskArray, thirdTaskDeleteNum);
+                        ArrayDisplay(thirdTaskArray);
                         break;
 
                     default:
                         Console.WriteLine("Вы ввели неверный номер задания, попробуйте снова!");
                         break;
                 }
-
-
-
-
-
                 Console.ReadLine();
             }
         }
@@ -182,5 +182,30 @@
             array = newArray;
         }
         
-    }
+        static void DeleteByIndex<T>(ref T[] array, int index)
+        {
+            T[] newArray;
+
+            if (array.Length <= index)
+            {
+                newArray = array;              
+            }
+            else
+            {
+                newArray = new T[array.Length - 1];
+
+                for (int i = 0; i < index; i++)
+                {
+                    newArray[i] = array[i];
+                }
+
+                for (int i = index; i < newArray.Length; i++)
+                {
+                    newArray[i] = array[i + 1];
+                }
+            }
+
+            array = newArray;
+        }
+    } 
 }
