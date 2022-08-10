@@ -17,6 +17,6 @@
             Console.WriteLine(value);
         }
 
-        //ewq
+        //Через in данные не копиру
     }
 }
