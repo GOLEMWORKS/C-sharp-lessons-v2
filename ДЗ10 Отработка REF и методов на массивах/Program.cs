@@ -33,10 +33,8 @@
 
                             Console.WriteLine("Текущий массив состоит из " + firstTaskArray.Length + " элементов");
                         ArrayDisplay(firstTaskArray);
-                        
-                            Console.WriteLine("");
 
-                            Console.WriteLine("Введите новую длину для массива. По умолчанию длина установится на 1!");
+                            Console.WriteLine("\nВведите новую длину для массива. По умолчанию длина установится на 1!");
                         
                             int newFirstTaskArraySize = IsNumber(Console.ReadLine());
 
