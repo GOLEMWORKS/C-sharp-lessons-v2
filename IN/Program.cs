@@ -8,7 +8,6 @@
             //Доступно с версии 7.2
             int a = 5;
             inTest(a);// не нужно дополнительно указывать in внутри
-
         }
 
         static void inTest(in int value)
