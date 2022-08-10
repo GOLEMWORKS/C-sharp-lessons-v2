@@ -30,7 +30,7 @@
             double temp, speed;
             temp = 190.21; //температура
             speed = 2902; //обороты
-
+           
             bool isTemperature = temp >= 100;
             bool isCooling =  speed <= 2000;
 
