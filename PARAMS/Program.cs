@@ -24,10 +24,34 @@
             return result;
         }
 
+        static int[] StringToIntArrayParse(string[] array)
+        {
+            int[] intArray = new int[array.Length];
+            int n;
+
+            for (int i = 0; i < array.Length; i++)
+            {
+                try
+                {
+                    int.TryParse(array[i], out n);                 
+                    intArray[i] = n;
+                }
+                catch (Exception)
+                {
+                    n = 0;
+                    continue;
+                }
+            }
+
+            return intArray;
+        }
+
         static void Main(string[] args)
         {
-            int[] numbersForSum = { 1, 4, 5, 2 };
-            Console.WriteLine("Сумма чисел: " + Sum(numbersForSum));
+            string[] unparsedString = Console.ReadLine().Split(',');
+            int[] parsedStringToInt = StringToIntArrayParse(unparsedString);
+
+            Console.WriteLine("Сумма чисел: " + Sum(parsedStringToInt));
         }          
     }
 }
