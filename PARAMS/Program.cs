@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int[] numbersForSum = { 1, 4, 5, 2 };
+            Console.WriteLine("Сумма чисел: " + Sum(numbersForSum));
         }
     }
 }
