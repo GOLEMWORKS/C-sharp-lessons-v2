@@ -24,7 +24,7 @@
             return result;
         }
 
-        static int[] StringToIntArrayParse(string[] array)
+        static int[] StringToIntArrayParse(string[] array)//Самописный Array.Convert
         {
             int[] intArray = new int[array.Length];
             int n;
@@ -36,7 +36,7 @@
                     int.TryParse(array[i], out n);                 
                     intArray[i] = n;
                 }
-                catch (Exception)
+                catch (Exception)//Проверка на наличие элементов массива, которые нельзя конвертировать
                 {
                     n = 0;
                     continue;
@@ -48,7 +48,8 @@
 
         static void Main(string[] args)
         {
-            string[] unparsedString = Console.ReadLine().Split(',');
+            Console.WriteLine("Введите числа через запятую или пробел: ");
+            string[] unparsedString = Console.ReadLine().Split(',',' ');//Split позволяет разделить строку по символам
             int[] parsedStringToInt = StringToIntArrayParse(unparsedString);
 
             Console.WriteLine("Сумма чисел: " + Sum(parsedStringToInt));
