@@ -11,7 +11,6 @@
         */
 
         //Метод с использованием params:
-
         static int Sum(params int[] parameters) //params всегда последний параметр в методе. Только один params в методе!!!
         {
             int result = 0;
@@ -48,11 +47,17 @@
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите числа через запятую или пробел: ");
-            string[] unparsedString = Console.ReadLine().Split(',',' ');//Split позволяет разделить строку по символам
-            int[] parsedStringToInt = StringToIntArrayParse(unparsedString);
+            while (true)
+            {
+                Console.Clear();
+                Console.WriteLine("Введите числа через запятую или пробел: ");
+                string[] unparsedString = Console.ReadLine().Split(',',' ');//Split позволяет разделить строку по символам
+                int[] parsedStringToInt = StringToIntArrayParse(unparsedString);
 
-            Console.WriteLine("Сумма чисел: " + Sum(parsedStringToInt));
+                Console.WriteLine("Сумма чисел: " + Sum(parsedStringToInt));
+                Console.ReadLine();
+            }
+            
         }          
     }
 }

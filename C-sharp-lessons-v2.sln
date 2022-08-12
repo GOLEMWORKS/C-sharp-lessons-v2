@@ -107,7 +107,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Цикл Do While", "Цик
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PARAMS", "PARAMS\PARAMS.csproj", "{A24F7AD9-4822-4AD6-9EC8-2695BE865FF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Необязательные параметры метода", "Необязательные параметры метода\Необязательные параметры метода.csproj", "{23BFDC1F-F6B2-4C24-B34F-FD281C902ED1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Необязательные параметры метода", "Необязательные параметры метода\Необязательные параметры метода.csproj", "{23BFDC1F-F6B2-4C24-B34F-FD281C902ED1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Именованные параметры", "Именованные параметры\Именованные параметры.csproj", "{44470E20-5933-44A4-97A2-BE189963C916}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -327,6 +329,10 @@ Global
 		{23BFDC1F-F6B2-4C24-B34F-FD281C902ED1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23BFDC1F-F6B2-4C24-B34F-FD281C902ED1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23BFDC1F-F6B2-4C24-B34F-FD281C902ED1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44470E20-5933-44A4-97A2-BE189963C916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44470E20-5933-44A4-97A2-BE189963C916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44470E20-5933-44A4-97A2-BE189963C916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44470E20-5933-44A4-97A2-BE189963C916}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
