@@ -56,12 +56,11 @@
 
         static void ArrayDisplayByRecursion(int[] Array, int i = 0)
         {
-            Console.Write(":");
-
-            if (i >= Array.Length)
+            if (i > (Array.Length - 1))
             {
                 return;
             }
+            Console.Write(Array[i] + " ");
             i++;
             ArrayDisplayByRecursion(Array, i);
         }
