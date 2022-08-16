@@ -12,10 +12,11 @@
                     "\n Задание 2: Сумма элементов массива (Аналогично рандомного)" +
                     "\n Задание 3: Сумма цифр введённого числа");
                 Console.Write(" Введите номер задания: ");
-                    int.TryParse(Console.ReadLine(), out int i);// Отработка перевода 
+                int.TryParse(Console.ReadLine(), out int i);// Отработка перевода 
                 switch (i)
                 {
                     case 1:
+                        Console.WriteLine(1);
                         break;
                     default:
                         Console.WriteLine("Неизвестный номер задания");
