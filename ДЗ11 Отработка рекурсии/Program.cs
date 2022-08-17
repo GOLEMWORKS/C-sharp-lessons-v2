@@ -16,16 +16,18 @@
                 switch (i)
                 {
                     case 1:
-                        Console.WriteLine("Задание 1: Вывод массива с помощью рекурсии (Массив генерирую рандомно)");
+                        Console.WriteLine(" Задание 1: Вывод массива с помощью рекурсии (Массив генерирую рандомно)");
                         int[] firstTaskArray = RandomIntArray();
                         ArrayDisplayByRecursion(firstTaskArray);
-
-
-
                         break;
 
                     case 2:
-                        Console.WriteLine(2);
+                        Console.WriteLine(" Задание 2: Сумма элементов массива (Аналогично рандомного)");
+                        int[] secondTaskArray = RandomIntArray();
+                        ArrayDisplayByRecursion(secondTaskArray);
+
+                        Console.Write("\n Сумма элементов: ");
+                        ArrayRecursionSum(secondTaskArray);
                         break;
 
                     case 3:
@@ -63,6 +65,20 @@
             Console.Write(Array[i] + " ");
             i++;
             ArrayDisplayByRecursion(Array, i);
+        }
+
+        static void ArrayRecursionSum(int[] Array,int counter = 0, int elementsSum = 0)
+        {
+            if (counter > (Array.Length - 1))
+            {
+                Console.WriteLine(elementsSum);
+                return;
+            }
+           
+            elementsSum += Array[counter];
+            counter++;
+            
+            ArrayRecursionSum(Array, counter, elementsSum);
         }
     }
 }
