@@ -34,12 +34,7 @@
                         Console.WriteLine("Задание 3: Сумма цифр введённого числа");
                         string str = Console.ReadLine();
                         int[] parsedArray = StringToIntArrayConverter(str);
-                        foreach (var item in parsedArray)
-                        {
-                            Console.WriteLine(item);
-                        }
-                        
-
+                        ElementsInNumberRecursionSum(parsedArray);
                         break;
 
                     default:
@@ -89,12 +84,16 @@
             ArrayRecursionSum(Array, counter, elementsSum);
         }
 
-        static void ElementsInNumberRecursionSum(int[] insertInt, int i = 0)
+        static void ElementsInNumberRecursionSum(int[] insertInt, int i = 0, int sumOfElems = 0)
         {
-            int sumOfElems = 0;
-            sumOfElems += insertInt[i];
-            i++;
-            ElementsInNumberRecursionSum(insertInt, i);
+            if (i > (insertInt.Length - 1))
+            {
+                Console.WriteLine(sumOfElems);
+                return;
+            }
+                sumOfElems += insertInt[i];
+                i++;
+                ElementsInNumberRecursionSum(insertInt, i, sumOfElems);
         }
 
         static int[] StringToIntArrayConverter(string insertString)
