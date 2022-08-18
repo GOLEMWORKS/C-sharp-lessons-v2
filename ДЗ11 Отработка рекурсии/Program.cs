@@ -89,9 +89,12 @@
             ArrayRecursionSum(Array, counter, elementsSum);
         }
 
-        static void ElementsInNumberRecursionSum(int insertInt)
+        static void ElementsInNumberRecursionSum(int[] insertInt, int i = 0)
         {
-           
+            int sumOfElems = 0;
+            sumOfElems += insertInt[i];
+            i++;
+            ElementsInNumberRecursionSum(insertInt, i);
         }
 
         static int[] StringToIntArrayConverter(string insertString)
