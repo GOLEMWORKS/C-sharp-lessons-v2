@@ -88,7 +88,7 @@
         {
             if (i > (insertInt.Length - 1))
             {
-                Console.WriteLine(sumOfElems);
+                Console.WriteLine("Сумма цифр = " + sumOfElems);
                 return;
             }
                 sumOfElems += insertInt[i];
