@@ -113,9 +113,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Именованные па
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PUGSDUCKS TEST", "PUGSDUCKS TEST\PUGSDUCKS TEST.csproj", "{51D5B67F-0559-4B04-8743-699F81CFF2CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Рекурсия и Stack Owerflow", "Рекурсия и Stack Owerflow\Рекурсия и Stack Owerflow.csproj", "{6D382331-D2BD-41F4-931E-0362EA255803}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Рекурсия и Stack Owerflow", "Рекурсия и Stack Owerflow\Рекурсия и Stack Owerflow.csproj", "{6D382331-D2BD-41F4-931E-0362EA255803}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ДЗ11 Отработка рекурсии", "ДЗ11 Отработка рекурсии\ДЗ11 Отработка рекурсии.csproj", "{216E2B90-7BBE-4DB3-A3D0-3BAC8AAAA50A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ДЗ11 Отработка рекурсии", "ДЗ11 Отработка рекурсии\ДЗ11 Отработка рекурсии.csproj", "{216E2B90-7BBE-4DB3-A3D0-3BAC8AAAA50A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Преобразование (привидение) типов данных", "Преобразование (привидение) типов данных\Преобразование (привидение) типов данных.csproj", "{1F2E3168-81BC-4963-8C7B-91772D5EB904}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -351,6 +353,10 @@ Global
 		{216E2B90-7BBE-4DB3-A3D0-3BAC8AAAA50A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{216E2B90-7BBE-4DB3-A3D0-3BAC8AAAA50A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{216E2B90-7BBE-4DB3-A3D0-3BAC8AAAA50A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F2E3168-81BC-4963-8C7B-91772D5EB904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F2E3168-81BC-4963-8C7B-91772D5EB904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F2E3168-81BC-4963-8C7B-91772D5EB904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F2E3168-81BC-4963-8C7B-91772D5EB904}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
