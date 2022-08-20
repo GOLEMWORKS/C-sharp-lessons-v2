@@ -27,7 +27,10 @@
             int firstValue = 2;
             float secondValue = 3.12F;
 
-            Console.WriteLine(firstValue + secondValue);
+            Console.WriteLine(firstValue + secondValue);//int преобразуется в float и происходит сложение float и float
+            int result = (int)(firstValue + secondValue);//В результате мы потеряем дробную часть
+
+           //Выполнить конвертацию string в int через явное преобразование нельзя, поэтому используется класс Convert или метод Parse
         }
 
         static void TestFloat(float insertValue)
