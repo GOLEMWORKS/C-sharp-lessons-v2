@@ -117,7 +117,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Рекурсия и Stack O
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ДЗ11 Отработка рекурсии", "ДЗ11 Отработка рекурсии\ДЗ11 Отработка рекурсии.csproj", "{216E2B90-7BBE-4DB3-A3D0-3BAC8AAAA50A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Преобразование (привидение) типов данных", "Преобразование (привидение) типов данных\Преобразование (привидение) типов данных.csproj", "{1F2E3168-81BC-4963-8C7B-91772D5EB904}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Преобразование (привидение) типов данных", "Преобразование (привидение) типов данных\Преобразование (привидение) типов данных.csproj", "{1F2E3168-81BC-4963-8C7B-91772D5EB904}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Арифметическое переполнение", "Арифметическое переполнение\Арифметическое переполнение.csproj", "{41134D98-9B62-4ADE-BF94-8446F9CEB9B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -357,6 +359,10 @@ Global
 		{1F2E3168-81BC-4963-8C7B-91772D5EB904}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F2E3168-81BC-4963-8C7B-91772D5EB904}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F2E3168-81BC-4963-8C7B-91772D5EB904}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41134D98-9B62-4ADE-BF94-8446F9CEB9B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41134D98-9B62-4ADE-BF94-8446F9CEB9B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41134D98-9B62-4ADE-BF94-8446F9CEB9B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41134D98-9B62-4ADE-BF94-8446F9CEB9B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
