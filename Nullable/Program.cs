@@ -7,6 +7,8 @@
             //Nullable типы данных
 
             string str = null; // null с ссылочными типами данных
+
+            //int i = null; - не работает
         }
     }
 }
