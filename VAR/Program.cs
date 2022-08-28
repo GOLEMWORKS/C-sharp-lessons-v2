@@ -33,6 +33,15 @@ namespace VAR
             int[] someNums = { 12, 123, 2313, 31, 3, 12, 434, 23, 55, 45112, 756};
 
             var res = from j in someNums where j > 15 select j; //Выборка через LINQ
+
+            foreach (var item in res)
+            {
+                Console.WriteLine($"{item}\t");
+            }
+
+            Console.WriteLine();
+
+            Console.WriteLine($"Тип данных res: {res.GetType()}"); //$ - позволяет обращаться к переменной и её методам внутри строки 
         }
     }
 }
