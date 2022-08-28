@@ -121,7 +121,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Преобразовани�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Арифметическое переполнение", "Арифметическое переполнение\Арифметическое переполнение.csproj", "{41134D98-9B62-4ADE-BF94-8446F9CEB9B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nullable", "Nullable\Nullable.csproj", "{5CC2D434-BE9C-498A-A2A7-CBE3F9677194}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nullable", "Nullable\Nullable.csproj", "{5CC2D434-BE9C-498A-A2A7-CBE3F9677194}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VAR", "VAR\VAR.csproj", "{EB6B6E53-DDBE-47FE-9C87-D5670C3A5D6B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -369,6 +371,10 @@ Global
 		{5CC2D434-BE9C-498A-A2A7-CBE3F9677194}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CC2D434-BE9C-498A-A2A7-CBE3F9677194}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CC2D434-BE9C-498A-A2A7-CBE3F9677194}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB6B6E53-DDBE-47FE-9C87-D5670C3A5D6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB6B6E53-DDBE-47FE-9C87-D5670C3A5D6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB6B6E53-DDBE-47FE-9C87-D5670C3A5D6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB6B6E53-DDBE-47FE-9C87-D5670C3A5D6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
