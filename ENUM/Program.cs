@@ -36,7 +36,7 @@
             Console.WriteLine(nextDay);
 
             //Проверка на переполнение и приведение типов в энамах
-            int val = 55;
+            int val = 5; //любое число больше 7 и выдаёт ошибку
 
             dayOfWeek = (DaysOfWeek)val;
 
@@ -48,10 +48,18 @@
             {
                 throw new Exception("Invalid Enum Value"); // Вывод ошибки при отсутствии в энаме элемента с этим номером
             }
+
+            //Все доступные значения энама
+
+            var getValues = Enum.GetValues(typeof(DaysOfWeek));
+            foreach (var item in getValues)
+            {
+                Console.WriteLine(item);
+            }
         }
 
         //Создание enum'а
-        enum DaysOfWeek : byte //Если не указывать нумерацию в энаме, то отсчёт пойдёт с нуля. Через двоеточие указывается тип данных энама
+        enum DaysOfWeek //Если не указывать нумерацию в энаме, то отсчёт пойдёт с нуля. Через двоеточие указывается тип данных энама ( : byte etc.)
         {
             Monday = 1, //Отсчёт дней начался с первого
             Tuesday,
