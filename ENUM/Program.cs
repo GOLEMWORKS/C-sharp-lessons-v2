@@ -56,6 +56,11 @@
             {
                 Console.WriteLine(item);
             }
+
+            //Парсинг энамов
+            string inputStr = Console.ReadLine();
+            var whichDayInWeek = (DaysOfWeek)Enum.Parse(typeof(DaysOfWeek), inputStr, ignoreCase: true); // Добавление нового дня недели через энам парс
+            Console.WriteLine($"День {whichDayInWeek}, его номер {(int)whichDayInWeek}"); //Выводит номер и название указанного дня, если он существует в энаме
         }
 
         //Создание enum'а
