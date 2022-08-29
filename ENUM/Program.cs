@@ -34,6 +34,20 @@
             //Следующий день
             var nextDay = GetNextDay(dayOfWeek);
             Console.WriteLine(nextDay);
+
+            //Проверка на переполнение и приведение типов в энамах
+            int val = 55;
+
+            dayOfWeek = (DaysOfWeek)val;
+
+            if (Enum.IsDefined(typeof (DaysOfWeek), val))
+            {
+                dayOfWeek = (DaysOfWeek)val;
+            }
+            else
+            {
+                throw new Exception("Invalid Enum Value"); // Вывод ошибки при отсутствии в энаме элемента с этим номером
+            }
         }
 
         //Создание enum'а
