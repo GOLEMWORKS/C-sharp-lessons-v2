@@ -72,14 +72,5 @@ namespace ООП_l_Классы
         Yellow
     }
 
-    //------------------------------------------------
-    class Student
-    {
-        public Guid id;//Guid нужен для создания уникальных айди
-        public string firstName;
-        public string lastName;
-        public string middleName;
-        public int age;
-        public string group;
-    }
+    //----------------------------------------------- STUDENT в отдельном файле
 }
