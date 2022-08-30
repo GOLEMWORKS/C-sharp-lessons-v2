@@ -21,6 +21,37 @@ namespace ООП_l_Классы
 
             //Если указать что p = null, то класс, как и любой ссылочный тип данных, потеряет связь с реальными данными и при присваивании
             //значений объектам этого класса будет выдан NullReferenceException
+
+            //-----------------------STUDENT----------------
+
+            var firstStudent = GetStudent();
+            PrintInfo(firstStudent);
+        }
+
+        //-------------STUDENT Методы------------
+        static Student GetStudent()
+        {
+            var student = new Student();
+
+            student.firstName = "Владимир";
+            student.middleName = "Александрович";
+            student.lastName = "Коротких";
+            student.age = 18;
+            student.id = Guid.NewGuid(); //Получение особого id
+            student.group = "ИСР21-1";
+
+            return student;
+        }
+
+        static void PrintInfo(Student student)
+        {
+            Console.WriteLine("\t\tИнформация о студенте:");
+            Console.WriteLine($"Фамилия: {student.lastName}");
+            Console.WriteLine($"Имя: {student.firstName}");
+            Console.WriteLine($"Отчество: {student.middleName}");
+            Console.WriteLine($"Возраст: {student.age}");
+            Console.WriteLine($"Группа: {student.group}");
+            Console.WriteLine($"ID: {student.id}");
         }
     }
 
@@ -39,5 +70,16 @@ namespace ООП_l_Классы
         Blue,
         Orange,
         Yellow
+    }
+
+    //------------------------------------------------
+    class Student
+    {
+        public Guid id;//Guid нужен для создания уникальных айди
+        public string firstName;
+        public string lastName;
+        public string middleName;
+        public int age;
+        public string group;
     }
 }
