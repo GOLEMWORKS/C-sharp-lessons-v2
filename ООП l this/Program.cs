@@ -9,8 +9,8 @@
             this.birthday = birthday;
         }
 
-        string lastName;
-        DateTime birthday;
+        private string lastName;
+        private DateTime birthday;
 
         public void Print()
         {
