@@ -6,7 +6,7 @@
 
         public static int b;
 
-        private static int c;
+        private static int c;//Можно использовать и модификаторы
 
         public void PrintC()
         {
@@ -35,6 +35,16 @@
 
             //myClass1.b - не сущаствует, обращаться нужно на уровне самого класса, а не его экземпляра
             MyClass.b = 32;
+
+            var myClass3 = new MyClass();
+            myClass3.SetC(4);
+            myClass3.PrintC();//Выведет 4
+
+            var myClass4 = new MyClass();
+            myClass4.PrintC();//Выведет 4
+
+            //b - общая у всех экземпляров класса, т.к. статическая переменная находится на уровне самого класса, поэтому
+            //её изменения будут влиять на все экземпляры!!!
         }
     }
 }
