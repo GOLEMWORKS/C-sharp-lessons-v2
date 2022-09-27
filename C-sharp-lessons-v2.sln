@@ -143,7 +143,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ООП l this", "ООП l t
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ООП l Свойства (Properties), Getter Setter", "ООП l Свойства (Properties), Getter Setter\ООП l Свойства (Properties), Getter Setter.csproj", "{45B6EC5A-124B-4C25-910D-6C07AC4A82E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ООП l Статические поля классов", "ООП l Статические поля классов\ООП l Статические поля классов.csproj", "{3CD3F44B-99FC-47F6-A4D9-26A99F92A97D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ООП l Статические поля классов", "ООП l Статические поля классов\ООП l Статические поля классов.csproj", "{3CD3F44B-99FC-47F6-A4D9-26A99F92A97D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
