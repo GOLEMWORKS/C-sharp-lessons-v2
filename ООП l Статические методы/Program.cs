@@ -10,6 +10,21 @@
 
             //classExOne.FooPSV(); - не вызовется, т.к. статические методы не вызываются на уровне экземпляра класса!!!
             MyClass.FooPSV(); //Вызывается на уровне класса, а не его экземпляра!
+
+
+            //Статические свойства взаимодействуют только с классами, а не с их экземлярами (Аналогично методам)
+            MyClass.ThirdInt = 12;
+            MyClass.FourthInt = 32;
+
+
+            //Класс со счётчиком экземпляров.
+            var ex1 = new MyClassCounter();
+            var ex2 = new MyClassCounter();
+            var ex3 = new MyClassCounter();
+
+            Console.WriteLine(MyClassCounter.Counter); //Статическое свойство
+            Console.WriteLine(MyClassCounter.GetCounter()); //Статический метод
+            Console.WriteLine(ex1.GetObjectsCount()); //Не статический метод, для получения информации о кол-ве объектов класса, через один объект
         }
     }
 
@@ -18,6 +33,18 @@
         private static int firstInt; //ОБЩЕЕ ДЛЯ ВСЕХ ЭКЗЕМПЛЯРОВ КЛАССА
 
         private int secondInt;
+
+
+        //Статическое свойство класса
+        private static int thirdInt;
+
+        public static int ThirdInt
+        {
+            get { return thirdInt; }
+            set { thirdInt = value; }
+        }
+
+        public static int FourthInt { get; set; } //Аналогично с автосвойствами
 
         public static void FooPSV() //Можно использовать метод без создания экземпляра класса. Аналогично общий метод для всех экземпляров класса
         {
@@ -35,6 +62,34 @@
         {
             Console.WriteLine("BarPV");
             Console.WriteLine(firstInt);
+        }
+    }
+
+    class MyClassCounter
+    {
+        private static int counter;
+
+        public static int Counter
+        {
+            get { return counter; }
+            //Сеттер убран для того, чтобы нельзя было изменить счётчик.
+            //Для использования сеттера внутри класса требуется приписать к нему модификатор private
+            //Для сохранения инкапсуляции
+        }
+
+        public MyClassCounter()
+        {
+            counter++;
+        }
+
+        public static int GetCounter()
+        {
+            return counter;
+        }
+
+        public int GetObjectsCount()
+        {
+            return counter;
         }
     }
 }
