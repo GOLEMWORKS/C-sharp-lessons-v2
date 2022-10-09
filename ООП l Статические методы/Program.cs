@@ -25,6 +25,7 @@
             Console.WriteLine(MyClassCounter.Counter); //Статическое свойство
             Console.WriteLine(MyClassCounter.GetCounter()); //Статический метод
             Console.WriteLine(ex1.GetObjectsCount()); //Не статический метод, для получения информации о кол-ве объектов класса, через один объект
+            Console.WriteLine(ex1.ObjectsCount); //Обращаемся к не статическому свойству (На уровне экземпляра класса)
         }
     }
 
@@ -76,6 +77,14 @@
             //Для использования сеттера внутри класса требуется приписать к нему модификатор private
             //Для сохранения инкапсуляции
         }
+
+        public int ObjectsCount
+        {
+            get { return counter; }
+            //Сеттер убран для того, чтобы нельзя было вообще взаимодействовать с полем
+            //counter через свойства
+        }
+
 
         public MyClassCounter()
         {
