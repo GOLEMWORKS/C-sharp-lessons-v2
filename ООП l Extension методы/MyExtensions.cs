@@ -13,5 +13,10 @@ namespace ООП_l_Extension_методы
         {
             Console.WriteLine(dateTime);
         }
+
+        public static bool IsThisDayOfWeek(this DateTime dateTime, DayOfWeek dayOfWeek)
+        {
+            return dateTime.DayOfWeek == dayOfWeek; //Проверка на соответствие текущего дня недели, указанному в методе
+        }
     }
 }
