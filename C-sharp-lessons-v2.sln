@@ -149,7 +149,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ООП l Статическ
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ООП l Статический конструктор", "ООП l Статический конструктор\ООП l Статический конструктор.csproj", "{E1F362BD-F02F-46DA-A86A-C7DC48226A34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ООП l Статический класс", "ООП l Статический класс\ООП l Статический класс.csproj", "{92641088-DBC1-4909-BE10-790E08CC9068}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ООП l Статический класс", "ООП l Статический класс\ООП l Статический класс.csproj", "{92641088-DBC1-4909-BE10-790E08CC9068}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ООП l Extension методы", "ООП l Extension методы\ООП l Extension методы.csproj", "{A12446AC-8CD6-4AF0-B35D-B74C307E796D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -453,6 +455,10 @@ Global
 		{92641088-DBC1-4909-BE10-790E08CC9068}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92641088-DBC1-4909-BE10-790E08CC9068}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92641088-DBC1-4909-BE10-790E08CC9068}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A12446AC-8CD6-4AF0-B35D-B74C307E796D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A12446AC-8CD6-4AF0-B35D-B74C307E796D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A12446AC-8CD6-4AF0-B35D-B74C307E796D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A12446AC-8CD6-4AF0-B35D-B74C307E796D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
