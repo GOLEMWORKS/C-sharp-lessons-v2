@@ -1,4 +1,7 @@
-﻿namespace ООП_l_Extension_методы
+﻿using ООП_l_Extension_методы_Extenssions; //Подключаем пространство имён с методами расширения
+using ООП_l_Extension_методы_Student_Extensions;
+
+namespace ООП_l_Extension_методы
 {
     internal class Program
     {
@@ -35,6 +38,19 @@
             {
                 Console.WriteLine("Сегодня не Воскресенье :(");
             }
+
+            var studentOne = new Student();
+            studentOne.FirstName = "Владимир";
+            studentOne.LastName = "Коротких";
+
+            Console.WriteLine(studentOne.GetFullName());
         }
+    }
+
+    sealed class Student //sealed - не позволяет наследоваться от этого класса, но можно использовать extension методы
+    {
+        public string FirstName { get; set; }
+
+        public string LastName { get; set; }
     }
 }

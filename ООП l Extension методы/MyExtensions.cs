@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ООП_l_Extension_методы
+namespace ООП_l_Extension_методы_Extenssions //Изменяем namespace дабы не засорять общее пространство имён проекта своими методами расширения
 {
     static class MyExtensions //Обязательно статическое!
     {
